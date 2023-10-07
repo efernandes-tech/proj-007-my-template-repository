@@ -50,11 +50,11 @@ My Template Repository - description about the project
         -   topic 2
         -   topic 3
 
--   [] Feature Two:
+-   [ ] Feature Two:
 
     -   [x] description of task
-    -   [] description of task
-    -   [] description of task
+    -   [ ] description of task
+    -   [ ] description of task
 
 ---
 

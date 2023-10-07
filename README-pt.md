@@ -50,11 +50,11 @@ My Template Repository - descrição sobre o projeto
         -   tópico 2
         -   tópico 3
 
--   [] Funcionalidade Dois:
+-   [ ] Funcionalidade Dois:
 
     -   [x] descrição da tarefa
-    -   [] descrição da tarefa
-    -   [] descrição da tarefa
+    -   [ ] descrição da tarefa
+    -   [ ] descrição da tarefa
 
 ---
 

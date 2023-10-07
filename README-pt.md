@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    My base repository for projects
+    Meu repositório base para projetos
 </h3>
 
 <p align="center">
@@ -13,57 +13,57 @@
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/efernandes-tech/proj-007-my-template-repository">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
     <a href="https://edersonfernandes.com.br">
-        <img alt="made by @efernandes.tech" src="https://img.shields.io/badge/Made%20by-@efernandes.tech-%2360F6AD">
+        <img alt="feito por @efernandes.tech" src="https://img.shields.io/badge/Feito%20por-@efernandes.tech-%2360F6AD">
     </a>
 </p>
 
 <h4 align="center">
-    Status: Finished
+    Status: Concluído
 </h4>
 
 <p align="center">
-    <a href="#about">About</a> •
-    <a href="#features">Features</a> •
+    <a href="#sobre">Sobre</a> •
+    <a href="#funcionalidades">Funcionalidades</a> •
     <a href="#layout">Layout</a> •
-    <a href="#how-it-works">How it works</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#contributors">Contributors</a> •
-    <a href="#author">Author</a> •
-    <a href="#license">License</a>
+    <a href="#como-executar">Como executar</a> •
+    <a href="#tecnologias">Tecnologias</a> •
+    <a href="#contribuidores">Contribuidores</a> •
+    <a href="#autor">Autor</a> •
+    <a href="#licença">Licença</a>
 </p>
 
-## About
+## Sobre
 
-My Template Repository - description about the project
+My Template Repository - descrição sobre o projeto
 
 ---
 
-## Features
+## Funcionalidades
 
-- [x] Feature One:
+- [x] Funcionalidade Um:
 
-  - [x] description of task
-  - [x] description of task
-  - [x] description of task
-  - [x] description of task:
-    - topic 1
-    - topic 2
-    - topic 3
+  - [x] descrição da tarefa
+  - [x] descrição da tarefa
+  - [x] descrição da tarefa
+  - [x] descrição da tarefa:
+    - tópico 1
+    - tópico 2
+    - tópico 3
 
-- [] Feature Two:
+- [] Funcionalidade Dois:
 
-  - [x] description of task
-  - [] description of task
-  - [] description of task
+  - [x] descrição da tarefa
+  - [] descrição da tarefa
+  - [] descrição da tarefa
 
 ---
 
 ## Layout
 
-The application layout is available on Figma:
+O layout da aplicação está disponível no Figma:
 
 <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/MyTemplateRepository?node-id=136%3A546">
-  <img alt="Made by @efernandes.tech" src="https://img.shields.io/badge/Access%20Layout%20-Figma-%2304D361">
+  <img alt="Feito por @efernandes.tech" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
 ### Mobile
@@ -80,80 +80,80 @@ The application layout is available on Figma:
 
 ---
 
-## How it works
+## Como executar
 
-This project is divided into three parts:
+Este projeto está dividido em três partes:
 
-1. Backend (server folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
+1. Backend (pasta server)
+2. Frontend (pasta web)
+3. Mobile (pasta mobile)
 
-Both Frontend and Mobile need the Backend to be running to work.
+Ambos Frontend e Mobile precisam que o Backend esteja rodando para funcionar.
 
-### Pre-requisites
+### Pré-requisitos
 
-Before you begin, you will need to have the following tools installed on your machine:
+Antes de começar, você precisa ter as seguintes ferramentas instaladas no seu computador:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [.NET SDK](https://dotnet.microsoft.com/en-us/download).
 
-In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
+Além disso, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### Running the Backend (Server)
+#### Rodar o Backend (Server)
 
 ```bash
 
-# Clone this repository
+# Clonar este repositorio
 $ git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
-# Access the project folder cmd/terminal
+# Acessar a pasta do projeto cmd/terminal
 $ cd my-template-repository
 
-# go to the server folder
+# Ir para a pasta server
 $ cd server
 
-# install the dependencies
+# Instalar as dependencias
 $ dotnet build
 
-# Run the application in development mode
+# Rodar a aplicação em modo de desenvolvimento
 $ dotnet run
 
-# The server will start at port: 5000 - go to http://localhost:5000
+# O servidor vai iniciar na porta: 5000 - va para http://localhost:5000
 
 ```
 
 <p align="center">
     <a href="https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/support/Insomnia_MyTemplateRepository.json" target="_blank">
-        <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
+        <img src="https://insomnia.rest/images/run.svg" alt="Executar no Insomnia">
     </a>
 </p>
 
-#### Running the Frontend (Web)
+#### Rodar o Frontend (Web)
 
 ```bash
 
-# Clone this repository
+# Clonar este repositorio
 $ git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
-# Access the project folder in your terminal
+# Acessar a pasta do projeto cmd/terminal
 $ cd my-template-repository
 
-# Go to the Front End application folder
+# Ir para a pasta web
 $ cd web
 
-# Install the dependencies
+# Instalar as dependencias
 $ npm install
 
-# Run the application in development mode
+# Rodar a aplicação em modo de desenvolvimento
 $ npm run start
 
-# The application will open on the port: 3000 - go to http://localhost:3000
+# O servidor vai iniciar na porta: 3000 - va para http://localhost:3000
 
 ```
 
 ---
 
-## Tech Stack
+## Tecnologias
 
-The following tools were used in the construction of the project:
+As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Web** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
@@ -164,14 +164,14 @@ The following tools were used in the construction of the project:
 - **[React Leaflet](https://react-leaflet.js.org/)**
 - **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
-> See the file [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/web/package.json)
+> Veja o arquivo [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/web/package.json)
 
 #### **Server** ([.NET](https://dotnet.microsoft.com/en-us/download) + [C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/))
 
 - **[ASP.NET](https://learn.microsoft.com/en-us/aspnet/core/)**
 - **[SQLite](https://github.com/mapbox/node-sqlite3)**
 
-> See the file [api.csproj](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/server/api/api.csproj)
+> Veja o arquivo [api.csproj](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/server/api/api.csproj)
 
 #### **Mobile** ([React Native](http://www.reactnative.com/) + [TypeScript](https://www.typescriptlang.org/))
 
@@ -185,27 +185,27 @@ The following tools were used in the construction of the project:
 - **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
 - **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
-> See the file [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/mobile/package.json)
+> Veja o arquivo [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/mobile/package.json)
 
-#### **Utilities**
+#### **Utilitários**
 
-- Prototype: **[Figma](https://www.figma.com/)** → **[Prototype (MyTemplateRepository)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/MyTemplateRepository)**
-- API: **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)** → **[API States](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[API Counties](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
-- Maps: **[Leaflet](https://react-leaflet.js.org/en/)**
-- Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
+- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo (MyTemplateRepository)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/MyTemplateRepository)**
+- API: **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)** → **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
+- Mapas: **[Leaflet](https://react-leaflet.js.org/en/)**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensões: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 - Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
-- API Test: **[Insomnia](https://insomnia.rest/)**
-- Icons: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
-- Fonts: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
+- API Teste: **[Insomnia](https://insomnia.rest/)**
+- Ícones: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
+- Fontes: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
 
 ---
 
-## Contributors
+## Contribuidores
 
-A big thanks to this group that made this product leave the field of idea and enter the app stores :)
+Um grande agradecimento a este grupo que fez este produto deixar o campo da idéia e entrar nas lojas de aplicativos :)
 
-You are an awesome team! :)
+Vocês são uma equipe incrível! :)
 
 <table>
     <tr>
@@ -256,18 +256,18 @@ You are an awesome team! :)
     </tr>
 </table>
 
-## How to contribute
+## Como contribuir
 
-1. Fork the project.
-2. Create a new branch with your changes: `git checkout -b my-feature`
-3. Save your changes and create a commit message telling you what you did: `git commit -m "feat: my new feature"`
-4. Submit your changes: `git push origin my-feature`
+1. Fork o projeto.
+2. Crie uma nova branch com suas mudanças: `git checkout -b my-feature`
+3. Salve suas alterações e crie uma mensagem no commit dizendo o que você fez: `git commit -m "feat: my new feature"`
+4. Envie suas alterações: `git push origin my-feature`
 
-> If you have any questions check this [guide on how to contribute](./CONTRIBUTING.md)
+> Se você tiver alguma dúvida, verifique isso [guia sobre como contribuir](./CONTRIBUTING-pt.md)
 
 ---
 
-## Author
+## Autor
 
 <a href="https://github.com/efernandes-tech">
     <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt="Ederson Fernandes"/><br />
@@ -279,14 +279,14 @@ You are an awesome team! :)
 
 ---
 
-## License
+## Licença
 
-This project is under the license [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](./LICENSE).
 
-Made with love by Ederson Fernandes 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/efernandes-tech/)
+Feito por Ederson Fernandes 👋🏽 [Entrar em contato!](Https://www.linkedin.com/in/efernandes-tech/)
 
 ---
 
-## Versions of README
+## Versões do README
 
 [English](./README.md) | [Portuguese](./README-pt.md)

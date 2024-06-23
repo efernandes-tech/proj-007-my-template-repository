@@ -102,19 +102,19 @@ In addition, it is good to have an editor to work with the code like [VSCode](ht
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
+git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
 # Access the project folder cmd/terminal
-$ cd my-template-repository
+cd my-template-repository
 
 # go to the server folder
-$ cd server
+cd server
 
 # install the dependencies
-$ dotnet build
+dotnet build
 
 # Run the application in development mode
-$ dotnet run
+dotnet run
 
 # The server will start at port: 5000 - go to http://localhost:5000
 
@@ -131,19 +131,19 @@ $ dotnet run
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
+git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
 # Access the project folder in your terminal
-$ cd my-template-repository
+cd my-template-repository
 
 # Go to the Front End application folder
-$ cd web
+cd web
 
 # Install the dependencies
-$ npm install
+yarn install
 
 # Run the application in development mode
-$ npm run start
+yarn start
 
 # The application will open on the port: 3000 - go to http://localhost:3000
 
@@ -157,12 +157,12 @@ The following tools were used in the construction of the project:
 
 #### **Web** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[React Icons](https://react-icons.github.io/react-icons/)**
--   **[Axios](https://github.com/axios/axios)**
--   **[Leaflet](https://react-leaflet.js.org/en/)**
--   **[React Leaflet](https://react-leaflet.js.org/)**
--   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+-   **[Create React App](https://create-react-app.dev/)**
+-   **[React Router Dom](https://reactrouter.com/en/main/start/tutorial/)**
+-   **[Chakra UI](https://chakra-ui.com/getting-started)**
+-   **[React Icons - Heroicons 2](https://react-icons.github.io/react-icons/icons?name=hi2)**
+-   **[ESLint](https://eslint.org/docs/latest/use/getting-started)** (dev)
+-   **[Prettier](https://prettier.io/docs/en/)** (dev/with eslint)
 
 > See the file [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/web/package.json)
 
@@ -189,14 +189,18 @@ The following tools were used in the construction of the project:
 
 #### **Utilities**
 
--   Prototype: **[Figma](https://www.figma.com/)** → **[Prototype (MyTemplateRepository)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/MyTemplateRepository)**
+-   Prototype: **[Figma](https://www.figma.com/)** → **[MyTemplateRepository](https://www.figma.com/file/2kre6IlxmlV1lRH7ziZk4a/MyTemplateRepository)**
+-   Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**, **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**
+-   Dependency: **[Yarn](https://classic.yarnpkg.com/en/docs/cli/)** → **[doc package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)**
+-   Build: **[esbuild](https://esbuild.github.io/getting-started/)** → Tip: **[Post](https://dev.to/em1dio/pt-br-usando-esbuild-com-typescript-n2k)**
+
+-   API Test: **[Insomnia](https://insomnia.rest/)**
+-   Multiple Version Node: **[NVM](https://github.com/coreybutler/nvm-windows)**
+-   Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
+
 -   API: **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)** → **[API States](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[API Counties](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
 -   Maps: **[Leaflet](https://react-leaflet.js.org/en/)**
--   Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 -   Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
--   Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   API Test: **[Insomnia](https://insomnia.rest/)**
--   Icons: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
 -   Fonts: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
 
 ---

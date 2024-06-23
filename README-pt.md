@@ -102,19 +102,19 @@ Além disso, é bom ter um editor para trabalhar com o código como [VSCode](htt
 ```bash
 
 # Clonar este repositorio
-$ git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
+git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
 # Acessar a pasta do projeto cmd/terminal
-$ cd my-template-repository
+cd my-template-repository
 
 # Ir para a pasta server
-$ cd server
+cd server
 
 # Instalar as dependencias
-$ dotnet build
+dotnet build
 
 # Rodar a aplicação em modo de desenvolvimento
-$ dotnet run
+dotnet run
 
 # O servidor vai iniciar na porta: 5000 - va para http://localhost:5000
 
@@ -131,19 +131,19 @@ $ dotnet run
 ```bash
 
 # Clonar este repositorio
-$ git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
+git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
 # Acessar a pasta do projeto cmd/terminal
-$ cd my-template-repository
+cd my-template-repository
 
 # Ir para a pasta web
-$ cd web
+cd web
 
 # Instalar as dependencias
-$ npm install
+yarn install
 
 # Rodar a aplicação em modo de desenvolvimento
-$ npm run start
+yarn start
 
 # O servidor vai iniciar na porta: 3000 - va para http://localhost:3000
 
@@ -198,6 +198,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   API Teste: **[Insomnia](https://insomnia.rest/)**
 -   Ícones: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
 -   Fontes: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
+-   Múltiplas Versões Node: **[NVM](https://github.com/coreybutler/nvm-windows)**
 
 ---
 

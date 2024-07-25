@@ -121,8 +121,8 @@ dotnet run
 ```
 
 <p align="center">
-    <a href="https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/support/Insomnia_MyTemplateRepository.json" target="_blank">
-        <img src="https://insomnia.rest/images/run.svg" alt="Executar no Insomnia">
+    <a href="https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/support/MyTemplateRepository.postman_collection.json" target="_blank">
+        <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
     </a>
 </p>
 
@@ -195,7 +195,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensões: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 -   Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 -   Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   API Teste: **[Insomnia](https://insomnia.rest/)**
+-   API Teste: **[Postman](https://www.postman.com/)**
 -   Ícones: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
 -   Fontes: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
 -   Múltiplas Versões Node: **[NVM](https://github.com/coreybutler/nvm-windows)**

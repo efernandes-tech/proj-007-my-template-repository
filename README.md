@@ -121,8 +121,8 @@ dotnet run
 ```
 
 <p align="center">
-    <a href="https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/support/Insomnia_MyTemplateRepository.json" target="_blank">
-        <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
+    <a href="https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/support/MyTemplateRepository.postman_collection.json" target="_blank">
+        <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
     </a>
 </p>
 
@@ -194,7 +194,7 @@ The following tools were used in the construction of the project:
 -   Dependency: **[Yarn](https://classic.yarnpkg.com/en/docs/cli/)** → **[doc package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)**
 -   Build: **[esbuild](https://esbuild.github.io/getting-started/)** → Tip: **[Post](https://dev.to/em1dio/pt-br-usando-esbuild-com-typescript-n2k)**
 
--   API Test: **[Insomnia](https://insomnia.rest/)**
+-   API Test: **[Postman](https://www.postman.com/)**
 -   Multiple Version Node: **[NVM](https://github.com/coreybutler/nvm-windows)**
 -   Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
 

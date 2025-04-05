@@ -1,9 +1,9 @@
 <h1 align="center">
-    <a href="#" alt="site">My Template Repository</a>
+    <a href="#" alt="My Template Repository">My Template Repository</a>
 </h1>
 
 <h3 align="center">
-    My base repository for projects
+    My template repository for projects
 </h3>
 
 <p align="center">
@@ -11,14 +11,13 @@
         <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/efernandes-tech/proj-007-my-template-repository">
     </a>
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/efernandes-tech/proj-007-my-template-repository">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
     <a href="https://edersonfernandes.com.br">
         <img alt="made by @efernandes.tech" src="https://img.shields.io/badge/Made%20by-@efernandes.tech-%2360F6AD">
     </a>
 </p>
 
 <h4 align="center">
-    Status: Finished
+    Status: In progress | Finished
 </h4>
 
 <p align="center">
@@ -27,9 +26,7 @@
     <a href="#layout">Layout</a> •
     <a href="#how-it-works">How it works</a> •
     <a href="#tech-stack">Tech Stack</a> •
-    <a href="#contributors">Contributors</a> •
-    <a href="#author">Author</a> •
-    <a href="#license">License</a>
+    <a href="#author">Author</a>
 </p>
 
 ## About
@@ -84,9 +81,9 @@ The application layout is available on Figma:
 
 This project is divided into three parts:
 
-1. Backend (server folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
+1. Backend folder (src { API { Controller, Infra } , Worker , Migration }, test { Unit , Integration } )
+2. Frontend folder (src, public, tests)
+3. Mobile folder (src, tests)
 
 Both Frontend and Mobile need the Backend to be running to work.
 
@@ -105,10 +102,7 @@ In addition, it is good to have an editor to work with the code like [VSCode](ht
 git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
 # Access the project folder cmd/terminal
-cd my-template-repository
-
-# go to the server folder
-cd server
+cd backend/src/MyTemplateRepository.API
 
 # install the dependencies
 dotnet build
@@ -134,10 +128,7 @@ dotnet run
 git clone git@github.com:efernandes-tech/proj-007-my-template-repository.git
 
 # Access the project folder in your terminal
-cd my-template-repository
-
-# Go to the Front End application folder
-cd web
+cd frontend
 
 # Install the dependencies
 yarn install
@@ -205,92 +196,16 @@ The following tools were used in the construction of the project:
 
 ---
 
-## Contributors
-
-A big thanks to this group that made this product leave the field of idea and enter the app stores :)
-
-You are an awesome team! :)
-
-<table>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/efernandes-tech">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt=""/><br />
-                <sub><b>Ederson Fernandes</b></sub>
-            </a><br />
-            <a href="https://edersonfernandes.com.br" title="site">🌐</a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/efernandes-tech">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt=""/><br />
-                <sub><b>Ederson Fernandes</b></sub>
-            </a><br />
-            <a href="https://edersonfernandes.com.br" title="site">🌐</a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/efernandes-tech">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt=""/><br />
-                <sub><b>Ederson Fernandes</b></sub>
-            </a><br />
-            <a href="https://edersonfernandes.com.br" title="site">🌐</a>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/efernandes-tech">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt=""/><br />
-                <sub><b>Ederson Fernandes</b></sub>
-            </a><br />
-            <a href="https://edersonfernandes.com.br" title="site">🌐</a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/efernandes-tech">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt=""/><br />
-                <sub><b>Ederson Fernandes</b></sub>
-            </a><br />
-            <a href="https://edersonfernandes.com.br" title="site">🌐</a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/efernandes-tech">
-                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt=""/><br />
-                <sub><b>Ederson Fernandes</b></sub>
-            </a><br />
-            <a href="https://edersonfernandes.com.br" title="site">🌐</a>
-        </td>
-    </tr>
-</table>
-
-## How to contribute
-
-1. Fork the project.
-2. Create a new branch with your changes: `git checkout -b my-feature`
-3. Save your changes and create a commit message telling you what you did: `git commit -m "feat: my new feature"`
-4. Submit your changes: `git push origin my-feature`
-
-> If you have any questions check this [guide on how to contribute](./CONTRIBUTING.md)
-
----
-
 ## Author
 
 <a href="https://github.com/efernandes-tech">
-    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt="Ederson Fernandes"/><br />
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11312749?v=4" width="100px;" alt="Ederson Fernandes" />
+    <br />
     <sub><b>Ederson Fernandes</b></sub>
-</a><br />
-<a href="https://edersonfernandes.com.br" title="site">🌐</a><br />
+</a>
 
-[![Twitter Badge](https://img.shields.io/badge/-@EFernandesTech-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/EFernandesTech)](https://twitter.com/EFernandesTech) [![Linkedin Badge](https://img.shields.io/badge/-Ederson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/efernandes-tech/)](https://www.linkedin.com/in/efernandes-tech/) [![Gmail Badge](https://img.shields.io/badge/-efernandes.tech@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:efernandes.tech@gmail.com)](mailto:efernandes.tech@gmail.com)
+<br />
 
----
-
-## License
-
-This project is under the license [MIT](./LICENSE).
-
-Made with love by Ederson Fernandes 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/efernandes-tech/)
-
----
-
-## Versions of README
-
-[English](./README.md) | [Portuguese](./README-pt.md)
+[![Website](https://img.shields.io/badge/Website-Visit-green?logo=google-chrome)](https://seusiteaqui.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/edersonfernandesdev)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:seuemail@dominio.com)

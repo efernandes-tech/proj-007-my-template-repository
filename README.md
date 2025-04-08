@@ -57,10 +57,10 @@ My Template Repository - description about the project
 
 ## Layout
 
-The application layout is available on Figma:
+The application layout is available on Draw.io:
 
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/MyTemplateRepository?node-id=136%3A546">
-  <img alt="Made by @efernandes.tech" src="https://img.shields.io/badge/Access%20Layout%20-Figma-%2304D361">
+<a href="https://app.diagrams.net">
+  <img alt="Made by @efernandes.tech" src="https://img.shields.io/badge/Access%20Layout%20-Draw.io-%2304D361">
 </a>
 
 ### Mobile

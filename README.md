@@ -155,32 +155,32 @@ The following tools were used in the construction of the project:
 -   **[ESLint](https://eslint.org/docs/latest/use/getting-started)** (dev)
 -   **[Prettier](https://prettier.io/docs/en/)** (dev/with eslint)
 
-> See the file [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/web/package.json)
+> See the file [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/frontend/web/package.json)
 
 #### **Server** ([.NET](https://dotnet.microsoft.com/en-us/download) + [C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/))
 
 -   **[ASP.NET](https://learn.microsoft.com/en-us/aspnet/core/)**
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
+-   **[DocFX](https://dotnet.github.io/docfx/index.html)**
+-   **[reportgenerator](https://reportgenerator.io/usage)**
 
-> See the file [api.csproj](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/server/api/api.csproj)
+> See the file [api.csproj](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/backend/src/api.csproj)
 
 #### **Mobile** ([React Native](http://www.reactnative.com/) + [TypeScript](https://www.typescriptlang.org/))
 
--   **[Expo](https://expo.io/)**
--   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
+-   **[React Native Elements](https://reactnativeelements.com/)**
 -   **[React Navigation](https://reactnavigation.org/)**
--   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
--   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
--   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
+-   **[React Native Save Area](https://appandflow.github.io/react-native-safe-area-context/)**
+-   **[React Native Vector Icons](https://oblador.github.io/react-native-vector-icons/)**
+-   **[React Native Device Info](https://github.com/react-native-device-info/react-native-device-info)**
 -   **[Axios](https://github.com/axios/axios)**
--   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
--   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
+-   **[Expo](https://expo.io/)**
 
 > See the file [package.json](https://github.com/efernandes-tech/proj-007-my-template-repository/blob/main/mobile/package.json)
 
 #### **Utilities**
 
--   Prototype: **[Figma](https://www.figma.com/)** → **[MyTemplateRepository](https://www.figma.com/file/2kre6IlxmlV1lRH7ziZk4a/MyTemplateRepository)**
+-   Prototype: **[Draw.io](https://app.diagrams.net/)** → **[MyTemplateRepository](https://app.diagrams.net)**
 -   Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**, **[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**
 -   Dependency: **[Yarn](https://classic.yarnpkg.com/en/docs/cli/)** → **[doc package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)**
 -   Build: **[esbuild](https://esbuild.github.io/getting-started/)** → Tip: **[Post](https://dev.to/em1dio/pt-br-usando-esbuild-com-typescript-n2k)**
@@ -190,7 +190,6 @@ The following tools were used in the construction of the project:
 -   Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
 
 -   API: **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)** → **[API States](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[API Counties](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
--   Maps: **[Leaflet](https://react-leaflet.js.org/en/)**
 -   Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 -   Fonts: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
 

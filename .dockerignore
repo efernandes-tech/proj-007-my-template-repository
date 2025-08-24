@@ -46,3 +46,9 @@ coverage
 # Cache
 tmp
 .cache
+
+# NextJs
+.next
+Dockerfile
+.dockerignore
+.env*.local
